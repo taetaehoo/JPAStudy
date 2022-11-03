@@ -16,7 +16,7 @@ public class JpaMain {
         try {
             transaction.begin();
 
-
+            System.out.println("hello git");
             transaction.commit();
         }
         catch (Exception e) {
